@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class Class1
+    class BattleLogic
     {
+
+        
+
     }
 }
