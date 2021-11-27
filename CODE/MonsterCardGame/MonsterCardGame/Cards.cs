@@ -9,5 +9,9 @@ namespace MonsterCardGame
     class Cards
     {
 
+        public string name;
+        string elemType; // or integer
+        public int damage = 10; // damage = constant
+
     }
 }
