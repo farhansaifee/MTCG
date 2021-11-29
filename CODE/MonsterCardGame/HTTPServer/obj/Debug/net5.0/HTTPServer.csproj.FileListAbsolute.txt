@@ -1,0 +1,16 @@
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\bin\Debug\net5.0\HTTPServer.exe
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\bin\Debug\net5.0\HTTPServer.deps.json
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\bin\Debug\net5.0\HTTPServer.runtimeconfig.json
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\bin\Debug\net5.0\HTTPServer.runtimeconfig.dev.json
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\bin\Debug\net5.0\HTTPServer.dll
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\bin\Debug\net5.0\ref\HTTPServer.dll
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\bin\Debug\net5.0\HTTPServer.pdb
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\obj\Debug\net5.0\HTTPServer.csproj.AssemblyReference.cache
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\obj\Debug\net5.0\HTTPServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\obj\Debug\net5.0\HTTPServer.AssemblyInfoInputs.cache
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\obj\Debug\net5.0\HTTPServer.AssemblyInfo.cs
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\obj\Debug\net5.0\HTTPServer.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\obj\Debug\net5.0\HTTPServer.dll
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\obj\Debug\net5.0\ref\HTTPServer.dll
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\obj\Debug\net5.0\HTTPServer.pdb
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\obj\Debug\net5.0\HTTPServer.genruntimeconfig.cache
