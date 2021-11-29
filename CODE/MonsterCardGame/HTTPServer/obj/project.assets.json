@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj",
-      "projectName": "MonsterCardGame",
-      "projectPath": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\HTTPServer\\HTTPServer.csproj",
+      "projectName": "HTTPServer",
+      "projectPath": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\HTTPServer\\HTTPServer.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\HTTPServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

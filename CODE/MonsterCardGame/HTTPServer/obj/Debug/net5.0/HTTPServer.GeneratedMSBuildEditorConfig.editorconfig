@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = MonsterCardGame
-build_property.ProjectDir = C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\
+build_property.RootNamespace = HTTPServer
+build_property.ProjectDir = C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\HTTPServer\
