@@ -7,10 +7,17 @@ namespace HTTPServer
 {
     class Server
     {
+
+        //int port;
+        //public Server(int port)
+        //{
+          //  this.port = port;
+        //}
+
         static void Main(string[] args)
         {
 
-            TcpListener listener = new TcpListener(System.Net.IPAddress.Any, 8080);
+            TcpListener listener = new TcpListener(System.Net.IPAddress.Any, 8080); // PORT DOESNT WORK
             listener.Start();
 
             while(true){
