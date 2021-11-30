@@ -1,14 +1,20 @@
-﻿using System;
+﻿using HttpServer;
+using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Sockets;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
-namespace MonsterCardGame
+namespace HTTPServer
 {
-    class HttpProcessor
+    class Processor
     {
+
         private TcpClient socket;
-        private HttpServer httpServer;
+        private Server httpServer;
 
         public string Method { get; private set; }
         public string Path { get; private set; }
@@ -16,7 +22,7 @@ namespace MonsterCardGame
 
         public Dictionary<string, string> Headers { get; }
 
-        public HttpProcessor(TcpClient s, HttpServer httpServer)
+        public Processor(TcpClient s, Server httpServer)
         {
             this.socket = s;
             this.httpServer = httpServer;
@@ -82,5 +88,6 @@ namespace MonsterCardGame
             Console.WriteLine(s);
             writer.WriteLine(s);
         }
+
     }
 }
