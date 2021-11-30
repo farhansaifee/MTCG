@@ -12,7 +12,7 @@ namespace HTTPServer
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Simple HTTP-Server!");
+            Console.WriteLine("This is a HTTPServer!");
             Console.CancelKeyPress += (sender, e) => Environment.Exit(0);
 
             new Server(8080).Run();

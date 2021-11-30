@@ -20,7 +20,7 @@ namespace HTTPServer
         public string Path { get; private set; }
         public string Version { get; private set; }
 
-        public Dictionary<string, string> Headers { get; }
+        public Dictionary<string, string> Headers { get; set; }
 
         public Processor(TcpClient s, Server httpServer)
         {
@@ -62,21 +62,9 @@ namespace HTTPServer
             }
 
             // write the full HTTP-response
-            string content = $"<html><body><h1>test server</h1>" +
-                $"Current Time: {DateTime.Now}" +
-                $"<form method=\"GET\" action=\"/form\">" +
-                $"<input type=\"text\" name=\"foo\" value=\"foovalue\">" +
-                $"<input type=\"submit\" name=\"bar\" value=\"barvalue\">" +
-                $"</form></html>";
+            string content = $"<html><head></head><body>This is just a test </body></html>";
 
             Console.WriteLine();
-            WriteLine(writer, "HTTP/1.1 200 OK");
-            WriteLine(writer, "Server: My simple HttpServer");
-            WriteLine(writer, $"Current Time: {DateTime.Now}");
-            WriteLine(writer, $"Content-Length: {content.Length}");
-            WriteLine(writer, "Content-Type: text/html; charset=utf-8");
-            WriteLine(writer, "");
-            WriteLine(writer, content);
 
             writer.WriteLine();
             writer.Flush();
