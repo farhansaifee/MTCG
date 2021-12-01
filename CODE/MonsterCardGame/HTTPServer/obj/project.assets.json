@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\HTTPServer\\HTTPServer.csproj",
-      "projectName": "HTTPServer",
-      "projectPath": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\HTTPServer\\HTTPServer.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\HTTPServer\\ClassServer.csproj",
+      "projectName": "ClassServer",
+      "projectPath": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\HTTPServer\\ClassServer.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\HTTPServer\\obj\\",
       "projectStyle": "PackageReference",
