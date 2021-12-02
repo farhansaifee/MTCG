@@ -5,9 +5,4 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Server\Handler\GET\" />
-    <Folder Include="Server\Handler\POST\" />
-  </ItemGroup>
-
 </Project>

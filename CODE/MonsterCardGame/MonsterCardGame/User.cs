@@ -27,7 +27,7 @@ namespace MonsterCardGame
         }
 
 
-        //Get User Information
+        //Serializing - Deserializin
         public static async Task Main()
         {
             using HttpClient client = new()
@@ -42,9 +42,9 @@ namespace MonsterCardGame
             User user = await client.GetFromJsonAsync<User>("users/1");
             Console.WriteLine($"Id: {user.id}");
             Console.WriteLine($"Username: {user.username}");
-            Console.WriteLine($"Username: {user.password}");
-            Console.WriteLine($"Username: {user.coins}");
-            Console.WriteLine($"Username: {user.score}");
+            Console.WriteLine($"Password: {user.password}");
+            Console.WriteLine($"Coins: {user.coins}");
+            Console.WriteLine($"Score: {user.score}");
 
             // Post a new user.
             HttpResponseMessage response = await client.PostAsJsonAsync("users", user);
