@@ -13,3 +13,4 @@ In diesem Repository werde ich mein Semesterprojekt Schritt für Schritt dokumen
 Aus der Aufgabenstellung das UML zu bilden war keine großartige Herausfoderung, allerdings hatte ich Schwierigkeiten die Punkte Stack, Trading oder Package zuzuordnen. Ich wusste nicht ob ich aus denen ein Interface, Attribute oder Klassen machen soll.
 
 ## 2
+Am Anfang des Projekts wurde statt TCPListener HTTPServer genommen, was nicht erlaubt war. Also musste die Server Klasse komplett gelöscht und neu erstellt werden. Außerdem hat die (Projekt-)Struktur nicht gepasst, welche dann auch geändert wurde.
