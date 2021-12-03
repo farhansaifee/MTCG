@@ -30,3 +30,5 @@ C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\
 C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\ref\MonsterCardGame.dll
 C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.pdb
 C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.genruntimeconfig.cache
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\Npgsql.dll
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
