@@ -30,6 +30,7 @@ C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\
 C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\ref\MonsterCardGame.dll
 C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.pdb
 C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.genruntimeconfig.cache
+<<<<<<< HEAD
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.exe
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.deps.json
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.runtimeconfig.json
@@ -49,3 +50,7 @@ E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\ref\MonsterCardGame.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.pdb
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.genruntimeconfig.cache
+=======
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\Npgsql.dll
+C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+>>>>>>> 6c82fa566911ac286e4321a21154b9a11cdd0b96
