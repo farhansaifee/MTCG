@@ -15,7 +15,6 @@ namespace MonsterCardGame
         public string username { get; set; }
         private string password { get; set; }
         private int coins { get; set; }
-        public int score { get; set; }
 
         public void register()
         {
@@ -27,7 +26,7 @@ namespace MonsterCardGame
         }
 
 
-        //Serializing - Deserializin
+        //Serializing - Deserializing
         public static async Task Main()
         {
             using HttpClient client = new()
@@ -44,7 +43,6 @@ namespace MonsterCardGame
             Console.WriteLine($"Username: {user.username}");
             Console.WriteLine($"Password: {user.password}");
             Console.WriteLine($"Coins: {user.coins}");
-            Console.WriteLine($"Score: {user.score}");
 
             // Post a new user.
             HttpResponseMessage response = await client.PostAsJsonAsync("users", user);
