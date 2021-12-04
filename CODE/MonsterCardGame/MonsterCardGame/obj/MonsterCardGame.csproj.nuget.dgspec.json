@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj": {}
+    "E:\\Semester3\\LVs\\SWE1\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj": {
+    "E:\\Semester3\\LVs\\SWE1\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj",
+        "projectUniqueName": "E:\\Semester3\\LVs\\SWE1\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj",
         "projectName": "MonsterCardGame",
-        "projectPath": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj",
+        "projectPath": "E:\\Semester3\\LVs\\SWE1\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\SWE\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\obj\\",
+        "outputPath": "E:\\Semester3\\LVs\\SWE1\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

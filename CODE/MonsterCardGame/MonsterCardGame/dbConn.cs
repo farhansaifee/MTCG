@@ -7,12 +7,12 @@ using Npgsql;
 
 namespace MonsterCardGame
 {
-    class Database
+    class dbConn
     {
 
-        private static NpgsqlConnection GetConnection()
+        public static void connection()
         {
-            return new NpgsqlConnection(@"server=localhost;Port=5050");
+            
         }
 
     }
