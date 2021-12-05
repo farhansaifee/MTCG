@@ -27,7 +27,7 @@ namespace MonsterCardGame
 
 
         //Serializing - Deserializing
-        public static async Task Main()
+        public static async Task Mainn()
         {
             using HttpClient client = new()
             {
