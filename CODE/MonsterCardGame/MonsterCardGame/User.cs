@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -8,13 +9,18 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class User
+    class User : Interfaces.IUser
     {
+        public User()
+        {
+            Cards = new ArrayList();
 
-        public string id { get; set; }
-        public string username { get; set; }
-        private string password { get; set; }
-        private int coins { get; set; }
+        }
+        public int Id { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public int Coins { get; set; }
+        public ArrayList Cards { get; set; }
 
         public void register()
         {
@@ -39,10 +45,11 @@ namespace MonsterCardGame
 
             // Get the user information.
             User user = await client.GetFromJsonAsync<User>("users/1");
-            Console.WriteLine($"Id: {user.id}");
-            Console.WriteLine($"Username: {user.username}");
-            Console.WriteLine($"Password: {user.password}");
-            Console.WriteLine($"Coins: {user.coins}");
+            Console.WriteLine($"Id: {user.Id}");
+            Console.WriteLine($"Username: {user.Username}");
+            Console.WriteLine($"Password: {user.Password}");
+            Console.WriteLine($"Coins: {user.Coins}");
+            Console.WriteLine($"Cards: {user.Cards}");
 
             // Post a new user.
             HttpResponseMessage response = await client.PostAsJsonAsync("users", user);
