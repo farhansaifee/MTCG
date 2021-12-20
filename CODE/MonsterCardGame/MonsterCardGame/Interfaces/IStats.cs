@@ -4,10 +4,9 @@ using System.Text;
 
 namespace MonsterCardGame.Interfaces
 {
-    interface IScore
+    interface IStats
     {
 
-        string Username { get; }
         int Win { get; }
         int Draw { get; }
         int Lose { get; }

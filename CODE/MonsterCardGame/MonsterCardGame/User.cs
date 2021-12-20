@@ -11,50 +11,19 @@ namespace MonsterCardGame
 {
     class User : Interfaces.IUser
     {
+        // Kontruktor
+        // Creates new ArrayList Objekt of Cards
         public User()
         {
             Cards = new ArrayList();
 
         }
+        // Setter Getter Methoden
         public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public int Coins { get; set; }
         public ArrayList Cards { get; set; }
-
-        public void register()
-        {
-            Console.WriteLine("User is registered!");
-        }
-        public void login()
-        {
-            Console.WriteLine("User is logged in!");
-        }
-
-
-        //Serializing - Deserializing
-        public static async Task Mainn()
-        {
-            using HttpClient client = new()
-            {
-                BaseAddress = new Uri("https://localhost:8080")
-            };
-
-            //HttpClient client2 = new HttpClient();
-            //client2.BaseAddress.AbsolutePath.Contains("https://localhost:8080");
-
-            // Get the user information.
-            User user = await client.GetFromJsonAsync<User>("users/1");
-            Console.WriteLine($"Id: {user.Id}");
-            Console.WriteLine($"Username: {user.Username}");
-            Console.WriteLine($"Password: {user.Password}");
-            Console.WriteLine($"Coins: {user.Coins}");
-            Console.WriteLine($"Cards: {user.Cards}");
-
-            // Post a new user.
-            HttpResponseMessage response = await client.PostAsJsonAsync("users", user);
-            Console.WriteLine($"{(response.IsSuccessStatusCode ? "Success" : "Error")} - {response.StatusCode}");
-        }
 
     }
 }

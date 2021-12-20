@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class Cards
+    class Card : Interfaces.ICard
     {
 
         // Constructor with parameters
-        public Cards(int id, string name, int damage, string element, string type)
+        public Card(int id, string name, int damage, string element, string type)
         {
             this.id = id;
             this.name = name;

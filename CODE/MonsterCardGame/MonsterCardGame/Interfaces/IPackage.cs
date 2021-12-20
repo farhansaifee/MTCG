@@ -5,13 +5,7 @@ using System.Text;
 
 namespace MonsterCardGame.Interfaces
 {
-    interface IUser
+    interface IPackage
     {
-
-        string Username { get; }
-        string Password { get; }
-        ArrayList Cards { get; }
-        int Coins { get; }
-
     }
 }
