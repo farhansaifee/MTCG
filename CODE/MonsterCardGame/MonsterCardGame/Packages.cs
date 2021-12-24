@@ -16,6 +16,29 @@ namespace MonsterCardGame
             Package = new List<Card>();
         }
 
+        // Adds 5 Cards to the package
+        public string randomOrder()
+        {
+            string pack = "";
+            int index;
+            do
+            {
+                Random random = new Random();
+                index = random.Next(0, AllCards.Count - 1);
+                Card c1 = AllCards[index];
+                if (!Package.Contains(c1))
+                    Package.Add(c1);
+            } while (Package.Count != 5);
+
+            foreach (Object obj in Package)
+                //Console.Write("   {0}", obj);
+                pack = pack + obj;
+            Console.WriteLine();
+            
+            Package.Clear();
+            return pack;
+        }
+
         public List<Card> Package { get; set; }
         public List<Card> AllCards { get; set; }
 
