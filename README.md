@@ -26,3 +26,12 @@ Als erstes haben wir ein UML Diagramm für unser Game erstellt.
 ## Projekt / Github Repository
 Das Projekt habe ich genaus wie das Github Repositroy im Laufe des Semester in Ruhe angefertigt.
 Im Repo wird der Code gepusht damit alle Änderungen sicher gespeichert sind.
+
+## Grundstruktur
+>>>>>>>>>>>> Grundstruktur der Klasse erstellt; Alle Interfaces eingebaut (nach änderung der Idee)
+
+## DB Connection
+
+## Server
+
+## CURL-Script

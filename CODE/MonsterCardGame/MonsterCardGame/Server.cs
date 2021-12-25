@@ -13,40 +13,35 @@ namespace MonsterCardGame.Server
     class Server
     {
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine("A simple server running...\n");
+        DbConn dbc = new DbConn();
 
-            TcpListener serverListener = new TcpListener(IPAddress.Loopback, 8000);
-            serverListener.Start(5);
+        // Main method
+        public static void Main()
+        {
+
+            Server hs = new Server();
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Server Started!");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Waiting for Requests...");
+            Console.WriteLine("-----------------------");
+
+            IPAddress ipAddress = Dns.GetHostEntry("localhost").AddressList[0];
+            TcpListener listener = new TcpListener(ipAddress, 8080);
+            listener.Start();
+
 
             while (true)
             {
-                TcpClient clientSocket = serverListener.AcceptTcpClient();
-                new Task(() =>
-                {
-                    try
-                    {
-                        var writer = new StreamWriter(clientSocket.GetStream());
-                        var reader = new StreamReader(clientSocket.GetStream());
-
-                        writer.WriteLine("Welcome to my server!");
-                        writer.WriteLine("Please enter your commands...");
-                        writer.Flush();
-
-                        string message;
-                        do
-                        {
-                            message = reader.ReadLine();
-                            Console.WriteLine($"received: {message}");
-                        } while (message != "quit");
-                    }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine($"error occured {e.Message}");
-                    }
-                }).Start();
+                TcpClient client = listener.AcceptTcpClient();
+                Thread t = new Thread(hs.StartServer);
+                t.Start(client);
             }
+        }
+
+        public void StartServer(object argument)
+        {
+
         }
 
     }
