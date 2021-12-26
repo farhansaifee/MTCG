@@ -27,7 +27,7 @@ namespace MonsterCardGame.Server
             Console.WriteLine("-----------------------");
 
             IPAddress ipAddress = Dns.GetHostEntry("localhost").AddressList[0];
-            TcpListener listener = new TcpListener(ipAddress, 8080);
+            TcpListener listener = new TcpListener(ipAddress, 10001);
             listener.Start();
 
 
