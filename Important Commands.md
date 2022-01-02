@@ -17,4 +17,4 @@ CREATE DATABASE mctg;
 ```
 \dt
 ```
-## 
+##

@@ -12,7 +12,7 @@ namespace MonsterCardGame
     class DbConn
     {
 
-        public string data = "Host=localhost;Username=postgres;Password=postgres;Database=mctgnew";
+        public string data = "Host=localhost;Username=postgres;Password=postgres;Database=mctgnew3";
         public Packages pack = new Packages();
 
         // Adds to Register
