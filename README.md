@@ -16,9 +16,9 @@ Außerdem hat die (Projekt-)Struktur nicht gepasst, welche dann auch geändert w
 
 ## UML / Class Diagramm
 Als erstes haben wir ein UML Diagramm für unser Game erstellt.
-![UML](E:\Semester3\LVs\SWE1\MTCG\UML\UML_NEW.jpeg)
+![UML_NEW](E:\Semester3\LVs\SWE1\MTCG\UML\UML_NEW.jpeg)
 
-![Class Diag.](E:\Semester3\LVs\SWE1\MTCG\UML\ClassDiagramm.PNG)
+![ClassDiagramm](E:\Semester3\LVs\SWE1\MTCG\UML\ClassDiagramm.PNG)
 
 ## Projekt / Github Repository / Zeitaufzeichnung
 Das Projekt habe ich genaus wie das Github Repositroy und die Zeitaufzeichnung im Laufe des Semester in Ruhe angefertigt.
