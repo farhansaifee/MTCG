@@ -16,7 +16,10 @@ namespace MonsterCardGame
             Package = new List<Card>();
         }
 
-        // Adds 5 Cards to the package
+        public List<Card> Package { get; set; }
+        public List<Card> AllCards { get; set; }
+
+        // Adds 5 Cards to the package in random order
         public string randomOrder()
         {
             string pack = "";
@@ -34,13 +37,11 @@ namespace MonsterCardGame
                 //Console.Write("   {0}", obj);
                 pack = pack + obj;
             Console.WriteLine();
-            
+
             Package.Clear();
             return pack;
+
+
         }
-
-        public List<Card> Package { get; set; }
-        public List<Card> AllCards { get; set; }
-
     }
 }

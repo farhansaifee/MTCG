@@ -4,6 +4,7 @@ using System.Text;
 
 namespace MonsterCardGame.Interfaces
 {
+    // For mandatory extra feature
     interface IUserData
     {
 

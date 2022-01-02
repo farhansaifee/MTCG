@@ -1,36 +1,3 @@
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.exe
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.deps.json
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.runtimeconfig.json
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.runtimeconfig.dev.json
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.dll
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\ref\MonsterCardGame.dll
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.pdb
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.csproj.AssemblyReference.cache
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.GeneratedMSBuildEditorConfig.editorconfig
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.AssemblyInfoInputs.cache
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.AssemblyInfo.cs
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.csproj.CoreCompileInputs.cache
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.dll
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\ref\MonsterCardGame.dll
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.pdb
-D:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.genruntimeconfig.cache
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.exe
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.deps.json
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.runtimeconfig.json
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.runtimeconfig.dev.json
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.dll
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\ref\MonsterCardGame.dll
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.pdb
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.csproj.AssemblyReference.cache
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.AssemblyInfoInputs.cache
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.AssemblyInfo.cs
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.csproj.CoreCompileInputs.cache
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.dll
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\ref\MonsterCardGame.dll
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.pdb
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.genruntimeconfig.cache
-<<<<<<< HEAD
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.exe
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.deps.json
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.runtimeconfig.json
@@ -38,6 +5,7 @@ E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\ref\MonsterCardGame.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\MonsterCardGame.pdb
+E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\Newtonsoft.Json.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\Npgsql.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.csproj.AssemblyReference.cache
@@ -45,12 +13,7 @@ E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.AssemblyInfoInputs.cache
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.AssemblyInfo.cs
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.csproj.CoreCompileInputs.cache
-E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.csproj.CopyComplete
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\ref\MonsterCardGame.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.pdb
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame\obj\Debug\net5.0\MonsterCardGame.genruntimeconfig.cache
-=======
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\Npgsql.dll
-C:\Users\user\Documents\SWE\MTCG\CODE\MonsterCardGame\MonsterCardGame\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
->>>>>>> 6c82fa566911ac286e4321a21154b9a11cdd0b96

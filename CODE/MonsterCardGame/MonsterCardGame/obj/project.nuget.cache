@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9jJVQWxRTDyKeQAp2liIkxyl2zaCsPiXX48NvdYvqtKh8+7drdThgCqDt9gHtyib1XIdt1IWwdxO8xzG/jDeIA==",
+  "dgSpecHash": "/pHzAeiN/vOSV9NHLdZBqOTtFRXS6Jw/Zbb2Bkb23o4N0OzP1MhQL/YONYd5hBsCQoQ1MIRHFnY0WP1l4sprhA==",
   "success": true,
   "projectFilePath": "E:\\Semester3\\LVs\\SWE1\\MTCG\\CODE\\MonsterCardGame\\MonsterCardGame\\MonsterCardGame.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql\\6.0.0\\npgsql.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],

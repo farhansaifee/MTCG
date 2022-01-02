@@ -7,5 +7,8 @@ namespace MonsterCardGame.Interfaces
 {
     interface IPackage
     {
+        public List<Card> Package { get; }
+        public List<Card> AllCards { get; }
+
     }
 }

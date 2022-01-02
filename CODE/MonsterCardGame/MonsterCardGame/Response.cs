@@ -14,10 +14,16 @@ namespace MonsterCardGame
 		// Konstruktor
 		public Response()
 		{
-			msg = new Dictionary<int, string>();
+			allMsg = new Dictionary<int, string>();
 			msgCounter = 1;
 
 		}
+
+		public Dictionary<int, string> allMsg { get; set; }
+		public byte[] sendBytes { get; set; }
+		public string lastPart { get; set; }
+		public int msgCounter { get; set; }
+		public string responseMsg { get; set; }
 
 		// Get Response
 		public void GetResponse()
@@ -27,7 +33,7 @@ namespace MonsterCardGame
 			builder.AppendLine("Content-Type: text/plain");
 			builder.AppendLine("");
 
-			foreach (KeyValuePair<int, string> kvp in msg)
+			foreach (KeyValuePair<int, string> kvp in allMsg)
 			{
 				builder.AppendFormat("{0} {1}\n",
 					kvp.Key, kvp.Value);
@@ -48,7 +54,7 @@ namespace MonsterCardGame
 			builder.AppendLine("HTTP/1.1 200 OK");
 			builder.AppendLine("Content-Type: text/plain");
 			builder.AppendLine("");
-			builder.AppendFormat(msg[Int32.Parse(lastPart)]);
+			builder.AppendFormat(allMsg[Int32.Parse(lastPart)]);
 			builder.AppendLine("");
 
 			Console.WriteLine("");
@@ -94,7 +100,7 @@ namespace MonsterCardGame
 		}
 		public void ResponseDeleteId()
 		{
-			msg.Remove(Int32.Parse(lastPart));
+			allMsg.Remove(Int32.Parse(lastPart));
 
 			StringBuilder builder = new StringBuilder();
 			builder.AppendLine("HTTP/1.1 200 OK");
@@ -110,7 +116,7 @@ namespace MonsterCardGame
 		}
 		public void ResponseDelete()
 		{
-			msg.Clear();
+			allMsg.Clear();
 			msgCounter = 1;
 
 			StringBuilder builder = new StringBuilder();
@@ -384,7 +390,6 @@ namespace MonsterCardGame
 
 			sendBytes = enc.GetBytes(builder.ToString());
 		}
-
 		public void GetResponseAquiredFail()
 		{
 			StringBuilder builder = new StringBuilder();
@@ -430,7 +435,6 @@ namespace MonsterCardGame
 
 			sendBytes = enc.GetBytes(builder.ToString());
 		}
-
 		public void ResponseDeckFail()
 		{
 			StringBuilder builder = new StringBuilder();
@@ -521,7 +525,6 @@ namespace MonsterCardGame
 
 			sendBytes = enc.GetBytes(builder.ToString());
 		}
-
 		public void ResponseUserDataFail()
 		{
 			StringBuilder builder = new StringBuilder();
@@ -553,7 +556,6 @@ namespace MonsterCardGame
 
 			sendBytes = enc.GetBytes(builder.ToString());
 		}
-
 		public void ResponseUpdateUserDataFail()
 		{
 			StringBuilder builder = new StringBuilder();
@@ -691,11 +693,5 @@ namespace MonsterCardGame
 
 			sendBytes = enc.GetBytes(builder.ToString());
 		}
-
-		public Dictionary<int, string> msg { get; set; }
-		public byte[] sendBytes { get; set; }
-		public string lastPart { get; set; }
-		public int msgCounter { get; set; }
-		public string responseMsg { get; set; }
 	}
 }

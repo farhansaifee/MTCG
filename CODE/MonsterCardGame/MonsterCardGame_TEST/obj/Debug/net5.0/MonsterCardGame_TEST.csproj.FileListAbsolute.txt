@@ -1,5 +1,0 @@
-E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame_TEST\obj\Debug\net5.0\MonsterCardGame_TEST.csproj.AssemblyReference.cache
-E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame_TEST\obj\Debug\net5.0\MonsterCardGame_TEST.GeneratedMSBuildEditorConfig.editorconfig
-E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame_TEST\obj\Debug\net5.0\MonsterCardGame_TEST.AssemblyInfoInputs.cache
-E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame_TEST\obj\Debug\net5.0\MonsterCardGame_TEST.AssemblyInfo.cs
-E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\MonsterCardGame_TEST\obj\Debug\net5.0\MonsterCardGame_TEST.csproj.CoreCompileInputs.cache
