@@ -38,6 +38,10 @@ Hier ist die Funktionalität des Servers. Mittel der Klassen Response, Request, 
 ## CURL-Script
 Das CURL-Script habe ich etwas verändern müssen und an der Funktionalität meines Codes angepasst.
 
+## Mandatory Extra Feature
+Hierzu habe ich mir etwas ganz simples überlegt. 
+Der User kann sein eigenes Profil einrichten. Sachen wie zum Beispiel Bio, Emoji (as a Picture) oder Lebenslauf können User wenn sie möchten einspeichern.
+
 # Zeitaufzeichnung(-Link)
 [Hier](https://docs.google.com/spreadsheets/d/14ewVa_gy0dWolOdndV7Aw9wKR3Yk8G37M3EwMY67MkA/edit?usp=sharing) habe ich eine Google Tabellen Datei erstellt, in der ich die für das Projekt investierte Stunden dokumentiere.
 
