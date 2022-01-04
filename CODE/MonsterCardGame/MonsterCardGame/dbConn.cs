@@ -12,7 +12,7 @@ namespace MonsterCardGame
     class DbConn
     {
 
-        public string data = "Host=localhost;Username=postgres;Password=postgres;Database=mctgnew3";
+        public string data = "Host=localhost;Username=postgres;Password=postgres;Database=mctgnew97";
         public Packages pack = new Packages();
 
         // Adds to Register
@@ -419,7 +419,7 @@ namespace MonsterCardGame
             return output;
         }
 
-        //Update deck SET card1 = 'undefined', card2 = 'undefined',.... WHERE username='blablabla'; 
+        //Update <table> SET card1 = 'undefined', card2 = 'undefined',.... WHERE username='blablabla'; 
         public void UpdateUserData(string user, string name, string bio, string image)
         {
             using var con = new NpgsqlConnection(data);

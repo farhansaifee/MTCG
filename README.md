@@ -47,3 +47,14 @@ Der User kann sein eigenes Profil einrichten. Sachen wie zum Beispiel Bio, Emoji
 
 # Github(-Link)
 [Hier](https://github.com/farhansaifee/MTCG) ist der Link zum Github Repository.
+
+# Einige CURL Befehle
+```bash
+curl -X PUT http://localhost:10001/users/kienboec --header "Content-Type: application/json" --header "Authorization: Basic kienboec-mtcgToken" -d "{\"Name\": \"Kienboeck\",  \"Bio\": \"me playin...\", \"Image\": \":-)\,  \"Age\": \"-\", \"Nickname\": \"-\", \"Currentcareer\": \"Teacher\"}"
+echo.
+curl -X PUT http://localhost:10001/users/altenhof --header "Content-Type: application/json" --header "Authorization: Basic altenhof-mtcgToken" -d "{\"Name\": \"Altenhofer\", \"Bio\": \"me codin...\",  \"Image\": \":-D\,  \"Age\": \"-\", \"Nickname\": \"-\", \"Currentcareer\": \"Teacher\"}"
+echo.
+curl -X PUT http://localhost:10001/users/testuser1 --header "Content-Type: application/json" --header "Authorization: Basic testuser1-mtcgToken" -d "{\"Name\": \"TestUser1\",  \"Bio\": \"Hi, This is my Bio...\", \"Image\": \":-C\,  \"Age\": \"21\", \"Nickname\": \"Little Player\", \"Currentcareer\": \"Student\"}"
+echo.
+curl -X PUT http://localhost:10001/users/testuser2 --header "Content-Type: application/json" --header "Authorization: Basic testuser2-mtcgToken" -d "{\"Name\": \"TestUser2\", \"Bio\": \"... and this is my Bio...\",  \"Image\": \":-)\",  \"Age\": \"22\", \"Nickname\": \"Big Ben\", \"Currentcareer\": \"Student\"}"
+```

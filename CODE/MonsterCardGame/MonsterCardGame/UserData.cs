@@ -8,12 +8,13 @@ namespace MonsterCardGame
 {
     class UserData : Interfaces.IUserData
     {
-        // Kontruktor mit 3 Attributen
+        // Kontruktor mit 6 Attributen
         public UserData(string name, string bio, string image)
         {
             this.Name = name;
             this.Bio = bio;
             this.Image = image;
+
 
         }
 
