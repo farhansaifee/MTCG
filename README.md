@@ -38,6 +38,9 @@ Hier ist die Funktionalität des Servers. Mittel der Klassen Response, Request, 
 ## CURL-Script
 Das CURL-Script habe ich etwas verändern müssen und an der Funktionalität meines Codes angepasst.
 
+## Unit Tests
+Ich habe mich dazu entschieden Unit Tests für die BattleLogic und Responses zu erstellen. 
+
 ## Mandatory Extra Feature
 Hierzu habe ich mir etwas ganz simples überlegt. 
 Der User kann sein eigenes Profil einrichten. Sachen wie zum Beispiel Bio, Emoji (as a Picture) oder Lebenslauf können User wenn sie möchten einspeichern.

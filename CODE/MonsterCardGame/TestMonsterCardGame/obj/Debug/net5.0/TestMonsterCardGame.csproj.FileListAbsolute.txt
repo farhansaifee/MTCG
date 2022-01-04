@@ -1,4 +1,9 @@
+E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\CoverletSourceRootsMapping
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\testhost.dll
+E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\MonsterCardGame.deps.json
+E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\MonsterCardGame.runtimeconfig.json
+E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\MonsterCardGame.runtimeconfig.dev.json
+E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\MonsterCardGame.exe
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\testhost.exe
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\NUnit3.TestAdapter.dll
@@ -21,8 +26,10 @@ E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\ne
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\Npgsql.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\NuGet.Frameworks.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\nunit.framework.dll
+E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
@@ -89,6 +96,8 @@ E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\ne
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\MonsterCardGame.dll
+E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\bin\Debug\net5.0\MonsterCardGame.pdb
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\obj\Debug\net5.0\TestMonsterCardGame.csproj.AssemblyReference.cache
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\obj\Debug\net5.0\TestMonsterCardGame.GeneratedMSBuildEditorConfig.editorconfig
 E:\Semester3\LVs\SWE1\MTCG\CODE\MonsterCardGame\TestMonsterCardGame\obj\Debug\net5.0\TestMonsterCardGame.AssemblyInfoInputs.cache
