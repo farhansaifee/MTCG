@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame.Server
 {
-    class Server
+    public class Server
     {
 
         DbConn dbc = new DbConn();
@@ -519,8 +519,11 @@ namespace MonsterCardGame.Server
                         string s1 = reader.ReadLine();
                         string s2 = reader.ReadLine();
                         string s3 = reader.ReadLine();
-                        Console.WriteLine(s1, s2, s3);
-                        UserData ud = new UserData(s1, s2, s3);
+                        string s4 = reader.ReadLine();
+                        string s5 = reader.ReadLine();
+                        string s6 = reader.ReadLine();
+                        Console.WriteLine(s1, s2, s3, s4, s5, s6);
+                        UserData ud = new UserData(s1, s2, s3, s4, s5, s6);
 
                         string json = JsonConvert.SerializeObject(ud);
 
@@ -547,7 +550,7 @@ namespace MonsterCardGame.Server
                     string username = dbc.TokenToUser(rs.RequestBody["Authorization"]);
 
                     // init new UserData
-                    UserData ud = new UserData("x", "x", "x");
+                    UserData ud = new UserData("x", "x", "x","x","x","x");
                     // set Card values
                     try
                     {
@@ -560,7 +563,7 @@ namespace MonsterCardGame.Server
                         Console.WriteLine("------------------");
                     }
 
-                    dbc.UpdateUserData(username, ud.Name, ud.Bio, ud.Image);
+                    dbc.UpdateUserData(username, ud.Name, ud.Bio, ud.Image, ud.Age, ud.Nickname, ud.Currentcareer);
                     res.ResponseUpdateUserData();
 
                 }
@@ -643,7 +646,7 @@ namespace MonsterCardGame.Server
             // SHOW TRADING - ROUTE: /tradings
             // FÜR POST DANN:
             // dbc - FullCardInfo - gibt die ganze Karte aus von einer id
-            // dbc methode show the 4 ids from the card from the deck (wahrscheinlich methode die das trennen muss -> 11,Dragon,46,fire,monster -> split(",")[0]
+            // dbc methode show the 4 ids from the card from the deck (wahrscheinlich methode die das trennen muss -> 41,Dragon,76,fire,monster -> split(",")[0]
             else if (String.Compare(rs.Method, "GET") == 0 && String.Compare(rs.Url, "/tradings") == 0 && rs.RequestBody.ContainsKey("Authorization"))
             {
                 if (String.Compare(rs.RequestBody["Authorization"], dbc.CheckToken(rs.RequestBody["Authorization"])) == 0)

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class Request : MonsterCardGame.IRequest
+    public class Request : MonsterCardGame.IRequest
     {
 
         public User acc = new User();

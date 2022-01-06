@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class History : Interfaces.IHistory
+    public class History : Interfaces.IHistory
     {
         public History(int matchid, string winner, string protokol)
         {

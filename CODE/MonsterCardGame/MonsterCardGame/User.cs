@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class User : Interfaces.IUser
+    public class User : Interfaces.IUser
     {
         // Kontruktor
         // Creates new ArrayList Objekt of Cards

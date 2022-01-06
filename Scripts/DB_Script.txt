@@ -69,7 +69,10 @@ create table if not exists userdata
 	username varchar(450),
 	name varchar(450),
 	bio varchar(450),
-	image varchar(450)
+	image varchar(450),
+	age varchar(450),
+	nickname varchar(450),
+	currentcareer varchar(450)
 );
 
 alter table userdata owner to postgres;

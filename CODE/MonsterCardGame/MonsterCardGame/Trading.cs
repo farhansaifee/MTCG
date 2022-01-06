@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class Trading : Interfaces.ITrading
+    public class Trading : Interfaces.ITrading
     {
 
         // Kontruktor mit 4 Attributen

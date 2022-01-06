@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class Card : Interfaces.ICard
+    public class Card : Interfaces.ICard
     {
 
         // Constructor with parameters

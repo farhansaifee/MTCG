@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonsterCardGame", "MonsterCardGame\MonsterCardGame.csproj", "{7C87E618-4067-4228-B3A9-06692A135102}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMonsterCardGame", "TestMonsterCardGame\TestMonsterCardGame.csproj", "{80D80B59-9012-4B4D-BA30-0B0AF7393AE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonsterCardGameTest", "MonsterCardGameTest\MonsterCardGameTest.csproj", "{4EA7D80C-F98B-409D-868E-4D23CDBFF659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{7C87E618-4067-4228-B3A9-06692A135102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C87E618-4067-4228-B3A9-06692A135102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C87E618-4067-4228-B3A9-06692A135102}.Release|Any CPU.Build.0 = Release|Any CPU
-		{80D80B59-9012-4B4D-BA30-0B0AF7393AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80D80B59-9012-4B4D-BA30-0B0AF7393AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80D80B59-9012-4B4D-BA30-0B0AF7393AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80D80B59-9012-4B4D-BA30-0B0AF7393AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA7D80C-F98B-409D-868E-4D23CDBFF659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA7D80C-F98B-409D-868E-4D23CDBFF659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA7D80C-F98B-409D-868E-4D23CDBFF659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA7D80C-F98B-409D-868E-4D23CDBFF659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

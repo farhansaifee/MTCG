@@ -9,7 +9,7 @@ namespace MonsterCardGame
 	public class Response : IResponse
 	{
 		// Encoding.GetBytes 
-		static Encoding enc = Encoding.UTF8;
+		public static Encoding enc = Encoding.UTF8;
 
 		// Konstruktor
 		public Response()
@@ -47,7 +47,6 @@ namespace MonsterCardGame
 
 			sendBytes = enc.GetBytes(builder.ToString());
 		}
-
 		public void GetResponseId()
 		{
 			StringBuilder builder = new StringBuilder();

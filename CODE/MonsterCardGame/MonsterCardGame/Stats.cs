@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class Stats : Interfaces.IStats
+    public class Stats : Interfaces.IStats
     {
 
         // Kontruktor mit 3 Attributen

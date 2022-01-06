@@ -11,9 +11,9 @@ namespace MonsterCardGame.Interfaces
         string Name { get; }
         string Bio { get; }
         string Image { get; }
-        //string Age { get; }
-        //string Nickname { get; }
-        //string CurrentCareer { get; }
+        string Age { get; }
+        string Nickname { get; }
+        string Currentcareer { get; }
 
     }
 }

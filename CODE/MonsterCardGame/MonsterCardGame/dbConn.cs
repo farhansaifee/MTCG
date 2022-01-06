@@ -9,10 +9,10 @@ using Npgsql;
 
 namespace MonsterCardGame
 {
-    class DbConn
+    public class DbConn
     {
 
-        public string data = "Host=localhost;Username=postgres;Password=postgres;Database=mctgnew97";
+        public string data = "Host=localhost;Username=postgres;Password=postgres;Database=mctg123";
         public Packages pack = new Packages();
 
         // Adds to Register
@@ -100,18 +100,21 @@ namespace MonsterCardGame
             con.Close();
         }
 
-        // Add Userdata
+        // Add Userdata (MANDATORY EXTRA FEATURE)
         public void CreateUserdata(string username)
         {
             using var con = new NpgsqlConnection(data);
             con.Open();
 
-            using var cmd = new NpgsqlCommand("INSERT INTO userdata VALUES (@username, @name, @bio, @image)", con);
+            using var cmd = new NpgsqlCommand("INSERT INTO userdata VALUES (@username, @name, @bio, @image, @age, @nickname, @currentcareer)", con);
 
             cmd.Parameters.AddWithValue("username", username);
             cmd.Parameters.AddWithValue("name", "undefined");
             cmd.Parameters.AddWithValue("bio", "undefined");
             cmd.Parameters.AddWithValue("image", "undefined");
+            cmd.Parameters.AddWithValue("age", "undefined");
+            cmd.Parameters.AddWithValue("nickname", "undefined");
+            cmd.Parameters.AddWithValue("currentcareer", "undefined");
             cmd.ExecuteNonQuery();
             con.Close();
         }
@@ -314,7 +317,7 @@ namespace MonsterCardGame
             using var con = new NpgsqlConnection(data);
             con.Open();
 
-            using var cmd = new NpgsqlCommand("SELECT name,bio,image FROM userdata WHERE username=@user", con);
+            using var cmd = new NpgsqlCommand("SELECT name,bio,image,age,nickname,currentcareer FROM userdata WHERE username=@user", con);
             cmd.Parameters.AddWithValue("user", user);
             using NpgsqlDataReader rdr = cmd.ExecuteReader();
 
@@ -323,7 +326,7 @@ namespace MonsterCardGame
             while (rdr.Read())
             {
 
-                output = rdr.GetString(0) + "\n" + rdr.GetString(1) + "\n" + rdr.GetString(2);
+                output = rdr.GetString(0) + "\n" + rdr.GetString(1) + "\n" + rdr.GetString(2) + rdr.GetString(3) + "\n" + rdr.GetString(4) + "\n" + rdr.GetString(5);
             }
             con.Close();
 
@@ -420,16 +423,19 @@ namespace MonsterCardGame
         }
 
         //Update <table> SET card1 = 'undefined', card2 = 'undefined',.... WHERE username='blablabla'; 
-        public void UpdateUserData(string user, string name, string bio, string image)
+        public void UpdateUserData(string user, string name, string bio, string image, string age, string nickname, string currentcareer)
         {
             using var con = new NpgsqlConnection(data);
             con.Open();
 
-            using var cmd = new NpgsqlCommand("UPDATE userdata SET name=@name, bio=@bio, image=@image WHERE username=@username", con);
+            using var cmd = new NpgsqlCommand("UPDATE userdata SET name=@name, bio=@bio, image=@image, age=@age, nickname=@nickname, currentcareer=@currentcareer WHERE username=@username", con);
             cmd.Parameters.AddWithValue("username", user);
             cmd.Parameters.AddWithValue("name", name);
             cmd.Parameters.AddWithValue("bio", bio);
             cmd.Parameters.AddWithValue("image", image);
+            cmd.Parameters.AddWithValue("age", age);
+            cmd.Parameters.AddWithValue("nickname", nickname);
+            cmd.Parameters.AddWithValue("currentcareer", currentcareer);
             cmd.ExecuteNonQuery();
             con.Close();
         }

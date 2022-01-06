@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class BattleLogic : Interfaces.IBattle
+    public class BattleLogic : Interfaces.IBattle
     {
 
         DbConn dbc = new DbConn();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class Score : Interfaces.IScore
+    public class Score : Interfaces.IScore
     {
         // Kontruktor mit 4 Attributen
         public Score(string username, int win, int draw, int lose)

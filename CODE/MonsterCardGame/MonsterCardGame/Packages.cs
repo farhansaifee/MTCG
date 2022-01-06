@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MonsterCardGame
 {
-    class Packages : Interfaces.IPackage
+    public class Packages : Interfaces.IPackage
     {
 
         public Packages()
